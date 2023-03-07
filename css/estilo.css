@@ -1,0 +1,35 @@
+form{
+    display: flex;
+    flex-direction: column;
+    max-width: px;
+    margin: 0 auto;
+}
+
+#container{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #EFEDE1;
+    padding: 20px;
+    padding-left: 50px;
+}
+
+label,input,textarea{
+    margin-bottom: 10px;
+}
+
+input,textarea{
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+button{
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(41, 227, 72);
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2</title>
+    <link rel="stylesheet" href="./css/estilo.css">
+    <script src="/validar/validar.js"></script>
+</head>
+<body>
+    <h1>Ejercicio 2</h1>
+    Un vendedor recibe un suelo base mas un 10% extra por comisión de sus ventas,
+    el vendedor desea saber cuanto dinero obtendrá por concepto de comisiones por
+    las tres ventas que realiza en el mes y el total que recibirá en el mes tomando
+    en cuanta su suelo base y comisiones.
+    <br>
+    <br>
+    <br>
+    <form id="formulario" class="formulario">
+        <label for="sueldo">Sueldo:</label>
+        <input type="text" id="sueldo" name="sueldo" required>
+        <br>
+        <label for="venta1">Ingrese la primera venta:</label>
+        <input type="text" id="venta1" name="venta1" required>
+        <br>
+        <label for="venta2">Ingrese la segunda venta:</label>
+        <input type="text" id="venta2" name="venta2" required>
+        <br>
+        <label for="venta3">Ingrese la tercera venta:</label>
+        <input type="text" id="venta3" name="venta3" required=>
+        <br>
+        <button type="submit" onclick="comision()">Calcular</button>
+    </form>
+    <br>
+    <br>
+
+    <h3 id="resultado"></h3>
+</body>
+</html>

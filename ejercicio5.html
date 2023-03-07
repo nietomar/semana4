@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 5</title>
+    <link rel="stylesheet" href="./css/estilo.css">
+    <script src="/validar/validar.js"></script>
+</head>
+<body>
+    <h1>Ejercicio 5</h1>
+    Saber que porcentaje de hombres y de mujeres hay en un salón.
+    <br>
+    <br>
+    <br>
+    <form id="formulario" class="formulario">
+
+        <label for="hom">Ingrese la cantidad de hombres:</label>
+        <input type="text" id="hom" name="hom" required="" pattern="[0-9]+">
+        <br>
+        <label for="muj">Ingrese la cantidad de mujeres:</label>
+        <input type="text" id="muj" name="muj" required="" pattern="[0-9]+">
+        <br>
+        <button type="submit" onclick="porcentajealumnos()">Calcular</button>
+    </form>
+    <br>
+    <br>
+
+    <h3 id="resultado"></h3>
+</body>
+</html>

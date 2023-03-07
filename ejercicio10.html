@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios 10</title>
+    <link rel="stylesheet" href="./css/estilo.css">
+    <script src="/validar/validar.js"></script>
+</head>
+<body>
+    <h1>Ejercicio 10</h1>
+    Calcular la utilidad que un trabajador recibe en el reparto anual de utilidades si este
+    se le asigna como un porcentaje de su salario mensualque depende de su antugüedad en la
+    empresa de acuerdo a lo siguiente:
+    <br>
+    Menos de 1 año: 5% del salario
+    <br>
+    1 año o más y menos de 2 años: 7% del salario
+    <br>
+    2 años o más y menos de 5 años: 10% del salario
+    <br>
+    5 años o más y menos de 10 años: 15% del salario
+    <br>
+    10 años o más: 20% del salario
+    <br>
+    <br>
+    <br>
+    <form id="formulario" class="formulario">
+        <label for="sala">Salario:</label>
+        <input type="text" id="sala" name="sala" required>
+        <br>
+        <label for="tiempo">Ingrese el tiempo trabajado en años:</label>
+        <input type="text" id="tiempo" name="tiempo" required pattern="[0-9]+">
+        <br>
+        <button type="submit" onclick="utilidad()">Calcular</button>
+    </form>
+    <br>
+    <br>
+
+    <h3 id="resultado"></h3>
+</body>
+</html>

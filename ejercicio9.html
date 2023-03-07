@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 9</title>
+    <link rel="stylesheet" href="./css/estilo.css">
+    <script src="/validar/validar.js"></script>
+</head>
+<body>
+    <h1>Ejercicio 9</h1>
+    Determinar la cantidad de dinero que recibirá un trabajador por concepto de las horas extras
+    trabajadas en una empresa, sabiendo, que cuando las horas de trabajo exceden de 40, el resto
+    se consideran horas extras y que estas se pagan el doble de una hora normal cuando no
+    exceden de 8; si las horas extran exceden de 8 se pagan las primeras 8 al doble de lo que
+    se pagan las horas normales y el resto el triple.
+    <br>
+    <br>
+    <br>
+    <form id="formulario" class="formulario">
+        <label for="salario">Salario por hora:</label>
+        <input type="text" id="salario" name="salario" required="">
+        <br>
+        <label for="horas">Numero de horas trabajadas:</label>
+        <input type="text" id="horas" name="horas" required="">
+        <br>
+        <button type="submit" onclick="horasextras()">Calcular</button>
+    </form>
+    <br>
+    <br>
+
+    <h3 id="resultado"></h3>
+</body>
+</html>

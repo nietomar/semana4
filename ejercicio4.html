@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 4</title>
+    <link rel="stylesheet" href="./css/estilo.css">
+    <script src="/validar/validar.js"></script>
+</head>
+<body>
+    <h1>Ejercicio 4</h1>
+    Saber la calificacion de un alumno si la calificación se compone de:
+    <br>
+    55% del promedio de sus tres calificaciones parciales.
+    <br>
+    30% de la calificacion del examen final.
+    <br>
+    15% de la calificación de un trabajo final.
+    <br>
+    <br>
+    <br>
+    <form id="formulario" class="formulario">
+        <label for="examen1">Ingrese la calificacion del primer examen parcial:</label>
+        <input type="text" id="examen1" name="examen1" required="">
+        <br>
+        <label for="examen2">Ingrese la calificacion del segundo examen parcial:</label>
+        <input type="text" id="examen2" name="examen2" required="">
+        <br>
+        <label for="examen3">Ingrese la calificacion del tercer examen parcial:</label>
+        <input type="text" id="examen3" name="examen3" required="">
+        <br>
+        <label for="examenfinal">Ingrese la calificacion del examen final:</label>
+        <input type="text" id="examenfinal" name="examenfinal" required="">
+        <br>
+        <label for="trabajofinal">Ingrese la calificacion del trabajo final:</label>
+        <input type="text" id="trabajofinal" name="trabajofinal" required="">
+        <br>
+        <button type="submit" onclick="calificacion()">Calcular</button>
+    </form>
+    <br>
+    <br>
+
+    <h3 id="resultado"></h3>
+
+</body>
+</html>
